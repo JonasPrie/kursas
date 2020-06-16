@@ -1,0 +1,25 @@
+/* Main styles file */
+
+h1,
+h2 {
+	color: #f73160;
+	font-family: Arial;
+}
+
+p {
+	font-family: Times New Romans;
+}
+
+#paragraph {
+	font-size: 20px;
+	color: black;
+}
+
+.color-text {
+	font-size: 18px;
+	opacity: 0.4;
+}
+
+body span {
+	font-style: italic
+}
