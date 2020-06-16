@@ -1,0 +1,58 @@
+/* Main styles file */
+
+.company-name-logo {
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.menu-content {
+	margin: auto;
+	max-width: 600px;
+	border-top: 4px solid black;
+	border-bottom: 2px solid black;
+}
+
+ul {
+	text-align: center;
+	margin-right: 6px;
+}
+
+ul li {
+	display: inline;
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding: 6px;
+}
+
+.keyboard-logos {
+	display: flex;
+	justify-content: center;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: red;
+}
+
+#first-menu-element {
+	color: red;
+}
+
+p {
+	text-align: center;
+	font-family: monospace;
+	letter-spacing: 2px;
+	margin: auto;
+	max-width: 600px;
+}
