@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Registracija</title>
+		<style>
+
+			* {
+				box-sizing: border-box;
+			}
+
+			.col-1 {
+				width: 8.33%;
+			}
+			.col-2
+			{width: 16.66%;
+			}
+			.col-3
+			{width: 25%;
+			}
+			.col-4
+			{width: 33.33%;
+			}
+			.col-5
+			{width: 41.66%;
+			}
+			.col-6
+			{width: 50%;
+			}
+			.col-7
+			{width: 58.33%;
+			}
+			.col-8
+			{width: 66.66%;
+			}
+			.col-9
+			{width: 75%;
+			}
+			.col-10
+			{width: 83.33%;
+			}
+			.col-11
+			{width: 91.66%;
+			}
+			.col-12
+			{width: 100%;
+			}
+
+			[class*="col-"] {
+				float: left;
+				padding: 5px;
+			}
+
+			.registration-page {
+				background-color: white;
+			}
+
+			.registration-form-top {
+				background-color: lightgoldenrodyellow;
+				margin: 4px;
+			}
+
+			.name-and-field, .surname-and-field, .email-form {
+				display: inline-flex;
+			}
+
+			input[type=text] {
+				width: 100%;
+				padding: 10px;
+				border-radius: 4px;
+				resize: vertical;
+			}
+
+			input[type=submit] {
+				width: 100%;
+				padding: 10px;
+				border-radius: 4px;
+			}
+
+			input[type=email] {
+				width: 100%;
+				padding: 10px;
+				border-radius: 4px;
+			}
+
+			.registration-form-bottom {
+				background-color: palegreen;
+				margin: 4px;
+			}
+
+			.input-name, .input-email, .input-surname {
+				width: 100%;
+			}
+
+			h2, p {
+				padding-left: 6px;
+			}
+
+			input[type=submit]:hover {
+				background-color: lightgrey;
+				cursor: grabbing;
+			}
+
+			.first-row {
+				border: 1px solid black;
+				background-color: violet;
+				display: inline-flex;
+				padding: 0px;
+				text-align: center;
+				font-weight: bold;
+			}
+
+			.second-row, .thrid-row {
+				display: inline-flex;
+				padding: 0px;
+			}
+
+			.registered-surname {
+				text-align: center;
+				border-left: 2px solid black;
+				border-right: 2px solid black;
+				border-bottom: 2px solid black;
+				}
+
+			.registered-email {
+				text-align: center;
+				border-right: 2px solid black;
+				border-bottom: 2px solid black;
+			}
+
+			.registered-name {
+				text-align: left;
+				border-left: 2px solid black;
+				border-bottom: 2px solid black;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<h1>Registracija į renginį</h1>
+		<div class="col-12 registration-form-top">
+			<div class="registration-data">
+				<h2>Registracijos forma</h2>
+				<p>
+					Jeigu norite užsiregistruoti į renginį, užpildykite žemiau esančią formą. Žemiau lentelėje galite matyti
+					jau užsiregistravusius dalyvius
+				</p>
+				<form>
+					<div class="col-10 name-and-field">
+						<div class="col-4 name">
+							<label for="name">Vardas</label>
+						</div>
+						<div class="input-name">
+							<input id="name" type="text" name="name" required>
+						</div>
+					</div>
+					<div>
+						<div class="col-10 surname-and-field">
+							<div class="col-4 surname">
+								<label for="surname">Pavardė</label>
+							</div>
+							<div class="input-surname">
+								<input id="surname" type="text" name="name" required>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 email-form">
+						<div class="col-4 email">
+							<label for="email">Elektroninis paštas</label>
+						</div>
+						<div class="input-email">
+							<input type="email">
+						</div>
+					</div>
+					<div class="col-10 registration-button">
+						<input type="submit" value="Registruoti">
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-12 registration-form-bottom">
+			<h2>Jau užsiregistravę dalyviai</h2>
+			<div class="registered-users">
+				<div class="col-12 first-row">
+					<div class="col-8 bottom-list-name">
+						Vardas
+					</div>
+					<div class="col-1 bottom-list-surname">
+						Pavardė
+					</div>
+					<div class="col-3 bottom-list-email">
+						Elektroninis paštas
+					</div>
+				</div>
+				<div class="col-12 second-row">
+					<div class="col-8 registered-name">Jonas</div>
+					<div class="col-1 registered-surname">Jonaitis</div>
+					<div class="col-3 registered-email">jonaitis&#64;gmail.com</div>
+				</div>
+				<div class="col-12 thrid-row">
+					<div class="col-8 registered-name">Petras</div>
+					<div class="col-1 registered-surname">Petraitis</div>
+					<div class="col-3 registered-email">petraitis&#64;gmail.com</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
