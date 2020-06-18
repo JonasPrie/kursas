@@ -1,0 +1,134 @@
+.top-fieldset-border-legend {
+	font-family: fantasy;
+	letter-spacing: 3px;
+	text-transform: uppercase
+}
+
+input[type=text] {
+	border: 2px solid green;
+	border-radius: 6px;
+	padding: 2px;
+	margin: 2px;
+}
+
+input:hover {
+	background-color: beige;
+}
+
+.top-fieldset {
+	border-color: blue;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-style: dashed;
+}
+
+label:first-child {
+	color: red;
+}
+
+.bottom-fieldset {
+	border-color: brown;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-style: dotted;
+	box-shadow: blue;
+}
+
+.bottom-fieldset-border-legend {
+	font-family: sans-serif;
+	font-weight: 600;
+	padding-top: 10px;
+	margin-left: 40px;
+}
+
+.select-radio {
+	text-shadow: 1px 1px aqua;
+	font-size: 18px;
+	font-family: monospace;
+}
+
+#search-engine {
+	width: 20%;
+	padding: 2px 2px;
+	border: 4px solid black;
+	border-radius: 10px;
+	background-color: aqua;
+}
+#search-engine:hover {
+	cursor: grab;
+}
+
+input[type=radio] + label {
+	padding-right: 10px;
+	background-color: aliceblue;
+	font-size: 18px;
+}
+
+input[type=radio]:checked + label {
+	background-color: cornsilk;
+	font-family: cursive;
+	}
+
+input[type=radio]:hover {
+	cursor: pointer;
+}
+
+textarea {
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+	text-decoration-color: aqua;
+}
+textarea:hover {
+	background-color: white;
+	color: black;
+	font-size: 12px;
+}
+
+::placeholder {
+	color: red;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+}
+
+.textarea {
+	font-size: 20px;
+	color: firebrick;
+}
+
+.animation {
+	animation-name: fontsize;
+	animation-duration: 10s;
+}
+
+@keyframes fontsize {
+	0% {font-size: 5px;}
+	25% {font-size: 15px;}
+	50% {font-size: 30px;}
+	100% {font-size: 20px;}
+}
+
+span:nth-last-child(4) {
+	color: dimgrey;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+input[type=checkbox]:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 2px;
+	color: red;
+}
+
+input[type=checkbox]:checked + label {
+	background-color: aqua;
+}
+
+input[type=submit] {
+	margin-left: 20px;
+	background-color: aqua;
+}
+
+input[type=submit]:hover {
+	cursor: not-allowed;
+}
