@@ -18,18 +18,18 @@
 			<li><?php echo $cities[1] ?></li>
 		</ul>
 		<?php
-			$cities2 = ['Tokijas' => '13.6', 'Vashingtonas' => '0.6', 'Maskva' => '11.5'];
-				print_r($cities2);
-			$cities2[] = ['Londonas' => '8.6'];
+			$cities2 = [
+				'Tokijas' => '13.6',
+				'Vashingtonas' => '0.6',
+				'Maskva' => '11.5'
+			];
+			print_r($cities2);
+			$cities2 += ['Londonas' => '8.6'];
 		?>
 		<ul>
 
 			<?php
-				echo 'Gyventojų skaičius: ';
-				for ($i = 0; $i < 4; $i++) {
-					print_r($cities2['Tokijas'][$i]);
-				}
-				echo ' mln.';
+				echo 'Gyventojų skaičius: ' . $cities2['Tokijas'] . ' mln.';
 			?>
 		</ul>
 	</body>
