@@ -15,76 +15,60 @@
 .col-12 {width: 100%;}
 
 html, body {
-  height: 100%;
-  margin: 0;
+	height: 100%;
+	margin: 0;
 }
 
 body {
-	background-image: url('/images/honeycomb.jpg');
+	max-width: 1280px;
+	margin: auto;
+	background-color: #edf1f7;
 }
 
 .main-page-container {
 	display: flex;
 	height: 100%;
+	background-color: #b9d194;
+	background-position: left;
+	background-repeat: repeat;
 }
 
 .menu-container {
-	border: 2px solid red;
 	height: 100%;
 	background: black;
-	position: fixed;
-
+	position: sticky;
 }
 
 .content-wrapper {
 	height: auto;
 	position: relative;
-	margin-left: auto;
-
 }
+
 p {
 	color: white;
 }
+
 .content-wrapper > p {
 	color: black;
 }
 
 .header-container {
 	display: flex;
-	height: 70px;
+	height: 60px;
 	width: 100%;
-}
-
-.aloo2 {
-	border: 2px solid red;
 }
 
 .search-field {
 	display: flex;
 	align-items: center;
+	position: relative;
 	background-color: floralwhite;
 }
 
-.shipping-container {
-	display: flex;
-	height: 70px;
-	width: 100%;
-}
-
-.shipping {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: floralwhite;
-	border: 1px solid lightgrey;
+.fa-search {
+	position: absolute;
+	margin-left: 17px;
 	font-size: 20px;
-	color: black;
-}
-
-.alio {
-	height: 150px;
-	display: flex;
-	border: 2px solid red;
 }
 
 input[type=text] {
@@ -94,10 +78,7 @@ input[type=text] {
 	border-radius: 4px;
 	font-size: 16px;
 	background-color: white;
-	background-image: url('/images/searchicon3.png');
-	background-position:  4px 5px;
-	background-repeat: no-repeat;
-	padding: 12px 20px 12px 50px;
+	padding: 14px 20px 14px 25px;
 	margin-left: 10px;
 	-webkit-transition: width 0.4s ease-in-out;
 	transition: width 0.4s ease-in-out;
@@ -108,7 +89,7 @@ input[type=text]:focus {
 }
 
 input::placeholder {
-	padding-left: 1px;
+	padding-left: 0px;
 	color: grey;
 }
 
@@ -125,6 +106,7 @@ input::placeholder {
 	margin-right: 3px;
 	padding-bottom: 3px;
 }
+
 .fa-phone{
 	color: green;
 }
@@ -143,6 +125,22 @@ input::placeholder {
 	font-size: 25px;
 	margin-right: 3px;
 	padding-bottom: 3px;
+}
+
+.shipping-container {
+	display: flex;
+	height: 60px;
+	width: 100%;
+}
+
+.shipping {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: floralwhite;
+	border: 1px solid lightgrey;
+	font-size: 20px;
+	color: black;
 }
 
 #logo {
@@ -191,6 +189,7 @@ input::placeholder {
 	height: 400px;
 	justify-content: center;
 	align-items: center;
+	border: 1px solid yellow;
 }
 
 #buckfast {
@@ -202,5 +201,55 @@ input::placeholder {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+}
+
+.first-first-content {
+	text-align: center;
+	border: 1px solid yellow;
+}
+
+ figcaption {
+	background-color: greenyellow;
+	margin-left: 6px;
+	margin-right: 3px;
+	margin-top: -4px;
+}
+
+h2 {
+	background-color: white;
+	margin-top: -16px;
+	margin-left: 46px;
+	margin-right: 43px;
+	padding-top: 10px;
+}
+
+.first-first-content > p {
+	background-color: white;
+	color: black;
+	margin-top: -20px;
+	margin-left: 46px;
+	margin-right: 43px;
+}
+
+.cart-favourite-call-in-content {
+	display: flex;
+	margin-top: -20px;
+	background-color: lightgray;
+	margin-left: 46px;
+}
+
+.cart-fav-call {
+	border: 1px solid grey;
+	padding: 0px;
+	margin: 0px;
+}
+
+#read-more {
+	color: blue;
+	font-size: 20px;
+	text-align: end
+}
+
+#read-more:hover {
+	cursor: grab;
 }
