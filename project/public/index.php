@@ -233,7 +233,7 @@
 							</figure>
 							<h2>
 								<a href="all-honey.php">
-									Various Types of Honey
+									Various Honey
 								</a>
 							</h2>
 							<p>We are selling good stuff.</p>
@@ -257,7 +257,7 @@
 							</figure>
 							<h2>
 								<a href="bee-bread.php">
-									Buy Bee Bread
+									Bee Bread - 100g or 500g
 								</a>
 							</h2>
 							<p>Order now, give us your money</p>

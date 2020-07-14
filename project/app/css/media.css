@@ -1,0 +1,128 @@
+ /* Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap
+
+ Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) { ... }
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ...
+*/
+
+@media only screen and (max-width: 992px) {
+	.left-header-field-name-text {
+		font-size: 15px;
+		letter-spacing: 1px;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.left-header-field-name-text > span > a {
+		padding-left: 10px;
+	}
+
+	.main-page-container {
+		display: inline;
+		justify-content: center;
+	}
+
+	.menu-container {
+		height: auto;
+		display: inline;
+	}
+
+	#menu-text-menu {
+		display: none;
+		background-color: green;
+	}
+
+	.menu-products-list {
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		background-color: green;
+	}
+
+	.logo-image {
+		height: auto;
+		margin-top: 15px;
+		background-color: green;
+	}
+
+	#logo {
+		width: 120px;
+		height: 113px;
+		padding-top: 4px;
+	}
+
+	#menu-contact-us-field-text {
+		margin: 0px;
+		background-color: green;
+	}
+
+	#menu-bottom-facebook {
+		margin-top: 10px;
+		height: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#menu-bottom-facebook button {
+		height: 30px;
+		font-size: 17px;
+	}
+
+	.menu-list-product-dropdown:hover .menu-dropdown-content {
+		margin-left: 0;
+	}
+
+	.menu-list-product-dropdown {
+		margin: 0;
+	}
+
+	.hover-dropdown-button {
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+
+	.header-container {
+		flex-wrap: wrap;
+
+	}
+
+	.shopping-cart {
+		width: 75%;
+	}
+
+	.search-field {
+		width: 58.33%;
+	}
+
+	.content-wrapper {
+		width: 100%;
+	}
+
+	.first-content-block-row {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 775px) {
+	.all-content-blocks {
+		display: table-row;
+		text-align: center;
+	}
+	.right-header-field-date {
+		display: none;
+	}
+	.shopping-cart {
+		width: 100%;
+	}
+}
