@@ -8,15 +8,15 @@
 				include('../app/views/menu.php');
 			?>
 
-			<div class="col-10 content-wrapper">
-				<div class="all-content-blocks">
+			<main class="col-10 content-wrapper">
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<img src="../app/images/buckfast-bee-family-5-big.jpg" alt="Buckfast bee family 5 large frames" title="Buckfast bee family 5 large frames">
 							<figcaption>Buckfast Bee Family - 5 Large Frames</figcaption>
 						</figure>
 					</div>
-					<div class="col-8 bee-queen-product-page-text">
+					<div class="col-8 product-page-product-information">
 						<li><h1>Buckfast Bee Family - 5 Large Frames</h1></li>
 						<li>Brand: Imanto bitynas</li>
 						<li>Product code: ?</li>
@@ -31,15 +31,15 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-8 bee-queen-product-description-text">
+				</section>
+				<section class="col-8 bee-queen-product-description-text">
 					<h3>Description</h3>
 					<h4>Buckfast Bee Family - 5 Large Frames</h4>
 					<p>Race: Buckfast.</p>
 					<p>Price: 80&euro; for a family.</p>
 					<p>Delivery price not included.</p>
-				</div>
-			</div>
+				</section>
+			</main>
 		</div>
 
 		<?php

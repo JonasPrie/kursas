@@ -8,15 +8,15 @@
 				include('../app/views/menu.php');
 			?>
 
-			<div class="col-10 content-wrapper">
-				<div class="all-content-blocks">
+			<main class="col-10 content-wrapper">
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<img src="../app/images/pollen-big.jpg" alt="Bee picked pollen 500g" title="Bee picked pollen 500g">
 							<figcaption>Bee picked pollen 500g</figcaption>
 						</figure>
 					</div>
-					<div class="col-8 bee-queen-product-page-text">
+					<article class="col-8 product-page-product-information">
 						<li><h1>Bee picked pollen 500g</h1></li>
 						<li>Brand: Imanto bitynas</li>
 						<li>Product code: ?</li>
@@ -30,14 +30,14 @@
 								<button id="add-to-cart-button-product-page" class="col-12">Add To Cart</button>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-8 bee-queen-product-description-text">
+					</article>
+				</section>
+				<section class="col-8 bee-queen-product-description-text">
 					<h3>Description</h3>
 					<h4>Bee picked pollen 500g</h4>
 					<p>Eat sleep repeat. And eat Pollen in between</p>
-				</div>
-			</div>
+				</section>
+			</main>
 		</div>
 
 		<?php

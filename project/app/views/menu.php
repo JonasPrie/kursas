@@ -1,4 +1,4 @@
-			<div class="col-2 menu-container">
+			<section class="col-2 menu-container">
 				 <div class="logo-image">
 					 <a href="index.php">
 						 <img id="logo" src="../app/images/logo.png" alt="Imantas Beekeper logo" title="Imantas Beekeeper">
@@ -7,7 +7,7 @@
 				<div id="menu-text-menu">
 					<p>Menu</p>
 				</div>
-				<div class="menu-products-list">
+				<nav class="menu-products-list">
 					<div class="menu-list-product-dropdown">
 						<button class="hover-dropdown-button">
 							<a href="index.php">
@@ -72,12 +72,12 @@
 						</div>
 					</div>
 					<div id="menu-contact-us-field-text">
-						<button onclick="location.href='index.php'" type="button">
+						<button onclick="location.href='contact-us.php'" type="button">
 							Contact Us
 						</button>
 					</div>
 					<p id="menu-bottom-facebook">
 						<button>Find us <i class="fa fa-facebook-square"></i></button>
 					</p>
-				</div>
-			</div>
+				</nav>
+			</section>

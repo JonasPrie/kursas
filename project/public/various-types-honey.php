@@ -8,15 +8,15 @@
 				include('../app/views/menu.php');
 			?>
 
-			<div class="col-10 content-wrapper">
-				<div class="all-content-blocks">
+			<main class="col-10 content-wrapper">
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<img src="../app/images/various-types-honey-big.jpg" alt="Various types of honey" title="Various types of Honey">
 							<figcaption>Various types of honey</figcaption>
 						</figure>
 					</div>
-					<div class="col-8 bee-queen-product-page-text">
+					<div class="col-8 product-page-product-information">
 						<li><h1>Various Types of Honey</h1></li>
 						<li>Brand: Imanto bitynas</li>
 						<li>Product code: ?</li>
@@ -31,13 +31,13 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-8 bee-queen-product-description-text">
+				</section>
+				<section class="col-8 bee-queen-product-description-text">
 					<h3>Description</h3>
 					<h4>Various Types of Honey</h4>
 					<p>Various types of honey. Package consists of 3 different types of honey: buckwheat, forrest and raspberry, linden.</p>
-				</div>
-			</div>
+				</section>
+			</main>
 		</div>
 
 		<?php

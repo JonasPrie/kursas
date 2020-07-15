@@ -6,7 +6,7 @@
 			<?php
 				include('../app/views/menu.php');
 			?>
-			<div class="col-10 content-wrapper">
+			<main class="col-10 content-wrapper">
 				<div class="shipping-container">
 					<div class="col-6 shipping-fields-and-text">
 						<span>Shipping local</span>
@@ -15,15 +15,15 @@
 						<span>Shipping EU</span>
 					</div>
 				</div>
-				<div class="first-content-block-row first-content-background">
-					<div class="first-content-block-text">
+				<section class="first-content-block-row first-content-background">
+					<article class="first-content-block-text">
 						<p>Buckfast Bee Queens: Virgin or Mated</p><br>
 						<p id="second-row-text">Carnica Bee Queens: Virgin or Mated</p><br>
 						<p id="third-row-text">Various Honey, Pollen and Bee Bread</p>
 						<p id="try-our-products-text">Try our products now</p>
-					</div>
-				</div>
-				<div class="all-content-blocks">
+					</article>
+				</section>
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<a href="bee-queen-buckfast-virgin.php">
@@ -37,8 +37,8 @@
 							</a>
 						</h2>
 						<p>Very calm bees, efficient at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 6.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 6.00&euro;</p>
+						<p class="read-more-text">
 							<a href="bee-queen-buckfast-virgin.php">
 								More About Buckfast Bee Queen
 							</a>
@@ -61,8 +61,8 @@
 							</a>
 						</h2>
 						<p>Very calm bees, efficient at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 18.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 18.00&euro;</p>
+						<p class="read-more-text">
 							<a href="bee-queen-buckfast-mated.php">
 								More About Buckfast  Bee Queen
 							</a>
@@ -85,8 +85,8 @@
 							</a>
 						</h2>
 						<p>Quite calm bees, lays eggs before other queens do at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 80.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 80.00&euro;</p>
+						<p class="read-more-text">
 							<a href="bee-queen-carnica-virgin.php">
 								More About Carnica Bee Queen
 							</a>
@@ -96,8 +96,8 @@
 							<div class="col-6 cart-call-button fas fa-phone"></div>
 						</div>
 					</div>
-				</div>
-				<div class="all-content-blocks">
+				</section>
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<a href="bee-queen-carnica-mated.php">
@@ -111,8 +111,8 @@
 							</a>
 						</h2>
 						<p>Very calm bees, efficient at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 6.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 6.00&euro;</p>
+						<p class="read-more-text">
 							<a href="bee-queen-carnica-mated.php">
 								More About Carnica Bee Queen
 							</a>
@@ -135,8 +135,8 @@
 							</a>
 						</h2>
 						<p>Very calm bees, efficient at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 80.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 80.00&euro;</p>
+						<p class="read-more-text">
 							<a href="buckfast-bee-family-10-medium-frames.php">
 								More about Buckfast Bee Family
 							</a>
@@ -159,8 +159,8 @@
 							</a>
 						</h2>
 						<p>Very calm bees, efficient at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 80.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 80.00&euro;</p>
+						<p class="read-more-text">
 							<a href="buckfast-bee-family-5-large-frames.php">
 								More about Buckfast Bee Family
 							</a>
@@ -170,8 +170,8 @@
 							<div class="col-6 cart-call-button fas fa-phone"></div>
 						</div>
 					</div>
-				</div>
-				<div class="all-content-blocks">
+				</section>
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<a href="carnica-bee-family-10-medium-frames.php">
@@ -185,8 +185,8 @@
 							</a>
 						</h2>
 						<p>Very calm bees, efficient at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 6.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 6.00&euro;</p>
+						<p class="read-more-text">
 							<a href="carnica-bee-family-10-medium-frames.php">
 								More about Carnica Bee Family
 							</a>
@@ -209,8 +209,8 @@
 							</a>
 						</h2>
 						<p>Very calm bees, efficient at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 80.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 80.00&euro;</p>
+						<p class="read-more-text">
 							<a href="carnica-bee-family-5-large-frames.php">
 								More about Carnica Bee Family
 							</a>
@@ -220,85 +220,85 @@
 							<div class="col-6 cart-call-button fas fa-phone"></div>
 						</div>
 					</div>
-				</div>
-				<div>
+				</section>
+				<section id="honey-products">
 					<h3>Honey and other bee products</h3>
-					<div class="all-content-blocks">
-						<div class="col-8 blocks-in-all-content-blocks">
-							<figure>
-								<a href="all-honey.php">
-									<img src="../app/images/various-types-honey-small.jpg" alt="Various types of Honey" title="Various types of Honey">
-								</a>
-								<figcaption>Various types of Honey</figcaption>
-							</figure>
-							<h2>
-								<a href="all-honey.php">
-									Various Honey
-								</a>
-							</h2>
-							<p>We are selling good stuff.</p>
-							<p id="wrapper-price-tags-text">Price: 6.50&euro;</p>
-							<p id="read-more-text">
-								<a href="all-honey.php">
-									More about Various Types of Honey
-								</a>
-							</p>
-							<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-								<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-								<div class="col-6 cart-call-button fas fa-phone"></div>
-							</div>
-						</div>
-						<div class="col-8 blocks-in-all-content-blocks">
-							<figure>
-								<a href="bee-bread.php">
-									<img src="../app/images/bee-bread.jpg" alt="Bee Bread" title="Bee Bread">
-								</a>
-								<figcaption>Bee Bread</figcaption>
-							</figure>
-							<h2>
-								<a href="bee-bread.php">
-									Bee Bread - 100g or 500g
-								</a>
-							</h2>
-							<p>Order now, give us your money</p>
-							<p id="wrapper-price-tags-text">Price: 5.00&euro; to 25.00&euro;</p>
-							<p id="read-more-text">
-								<a href="bee-bread.php">
-									More about Bee Bread
-								</a>
-							</p>
-							<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-								<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-								<div class="col-6 cart-call-button fas fa-phone"></div>
-							</div>
-						</div>
-						<div class="col-8 blocks-in-all-content-blocks">
-							<figure>
-								<a href="pollen.php">
-									<img src="../app/images/pollen.jpg" alt="Bee Pollen" title="Bee Pollen">
-								</a>
-								<figcaption>Bee Pollen</figcaption>
-							</figure>
-							<h2>
-								<a href="pollen.php">
-									Bee Pollen - 100g or 500g
-								</a>
-							</h2>
-							<p>Eat Pollen- get Covid-19 for free</p>
-							<p id="wrapper-price-tags-text">Price: 6.00&euro; to 15.00&euro;</p>
-							<p id="read-more-text">
-								<a href="pollen.php">
-									More about Bee Pollen
-								</a>
-							</p>
-							<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-								<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-								<div class="col-6 cart-call-button fas fa-phone"></div>
-							</div>
+				</section>
+				<section class="all-content-blocks all-content-blocks-last">
+					<div class="col-8 blocks-in-all-content-blocks">
+						<figure>
+							<a href="all-honey.php">
+								<img src="../app/images/various-types-honey-small.jpg" alt="Various types of Honey" title="Various types of Honey">
+							</a>
+							<figcaption>Various types of Honey</figcaption>
+						</figure>
+						<h2>
+							<a href="all-honey.php">
+								Various Honey
+							</a>
+						</h2>
+						<p>We are selling good stuff.</p>
+						<p class="wrapper-price-tags-text">Price: 6.50&euro;</p>
+						<p class="read-more-text">
+							<a href="all-honey.php">
+								More about Various Types of Honey
+							</a>
+						</p>
+						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
+							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
+							<div class="col-6 cart-call-button fas fa-phone"></div>
 						</div>
 					</div>
-				</div>
-			</div>
+					<div class="col-8 blocks-in-all-content-blocks">
+						<figure>
+							<a href="bee-bread.php">
+								<img src="../app/images/bee-bread.jpg" alt="Bee Bread" title="Bee Bread">
+							</a>
+							<figcaption>Bee Bread</figcaption>
+						</figure>
+						<h2>
+							<a href="bee-bread.php">
+								Bee Bread - 100g or 500g
+							</a>
+						</h2>
+						<p>Order now, give us your money</p>
+						<p class="wrapper-price-tags-text">Price: 5.00&euro; to 25.00&euro;</p>
+						<p class="read-more-text">
+							<a href="bee-bread.php">
+								More about Bee Bread
+							</a>
+						</p>
+						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
+							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
+							<div class="col-6 cart-call-button fas fa-phone"></div>
+						</div>
+					</div>
+					<div class="col-8 blocks-in-all-content-blocks">
+						<figure>
+							<a href="pollen.php">
+								<img src="../app/images/pollen.jpg" alt="Bee Pollen" title="Bee Pollen">
+							</a>
+							<figcaption>Bee Pollen</figcaption>
+						</figure>
+						<h2>
+							<a href="pollen.php">
+								Bee Pollen - 100g or 500g
+							</a>
+						</h2>
+						<p>Eat Pollen- get Covid-19 for free</p>
+						<p class="wrapper-price-tags-text">Price: 6.00&euro; to 15.00&euro;</p>
+						<p class="read-more-text">
+							<a href="pollen.php">
+								More about Bee Pollen
+							</a>
+						</p>
+						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
+							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
+							<div class="col-6 cart-call-button fas fa-phone"></div>
+						</div>
+					</div>
+				</section>
+			</main>
 		</div>
 
 		<?php

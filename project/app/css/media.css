@@ -1,25 +1,10 @@
- /* Extra small devices (portrait phones, less than 576px)
- No media query for `xs` since this is the default in Bootstrap
-
- Small devices (landscape phones, 576px and up)
-@media only screen and (min-width: 576px) { ... }
-
-Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ...
-*/
-
 @media only screen and (max-width: 992px) {
 	.left-header-field-name-text {
 		font-size: 15px;
 		letter-spacing: 1px;
 		display: flex;
 		justify-content: flex-start;
+		width: 100%;
 	}
 
 	.left-header-field-name-text > span > a {
@@ -50,15 +35,15 @@ Extra large devices (large desktops, 1200px and up)
 	}
 
 	.logo-image {
-		height: auto;
+		height: 130px;
 		margin-top: 15px;
 		background-color: green;
 	}
 
 	#logo {
-		width: 120px;
-		height: 113px;
-		padding-top: 4px;
+		width: 80px;
+		height: 74px;
+		padding-top: 20px;
 	}
 
 	#menu-contact-us-field-text {
@@ -102,7 +87,7 @@ Extra large devices (large desktops, 1200px and up)
 	}
 
 	.search-field {
-		width: 58.33%;
+		width: 100%;
 	}
 
 	.content-wrapper {
@@ -110,19 +95,93 @@ Extra large devices (large desktops, 1200px and up)
 	}
 
 	.first-content-block-row {
-		height: 300px;
+		height: 250px;
+	}
+
+	#contact-us-form {
+		width: 100%;
 	}
 }
 
 @media only screen and (max-width: 775px) {
 	.all-content-blocks {
-		display: table-row;
-		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: table;
+		border: none;
 	}
+
+	.blocks-in-all-content-blocks {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+
 	.right-header-field-date {
 		display: none;
 	}
 	.shopping-cart {
 		width: 100%;
 	}
+
+	.first-content-block-row {
+		height: 160px;
+	}
+
+	.first-content-block-text {
+		font-size: 10px;
+		letter-spacing: 0;
+		margin-left: 0;
+		margin-top: -15px;
+	}
+
+	.first-content-block-text #try-our-products-text {
+		margin-top: -10px;
+	}
+
+	.all-content-blocks-last {
+		display: table;
+		width: 75%;
+	}
+
+	#honey-products {
+		border: none;
+		text-align: center;
+	}
+
+	.product-page-product-information {
+		text-align: center;
+		width: 100%;
+
+	}
+}
+
+@media only screen and (max-width: 578px) {
+	.first-content-block-text p{
+		font-size: 14px;
+		letter-spacing: 0;
+		margin-left: 0;
+		margin-top: 20px;
+		font-weight: 100;
+	}
+
+	.first-content-block-text #try-our-products-text {
+		margin-top: -10px;
+		font-size: 18px;
+	}
+	.menu-products-list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hover-dropdown-button{
+		width: 578px;
+		border: 1px solid black;
+	}
+
+	.menu-list-product-dropdown:hover .menu-dropdown-content {
+		margin-left: 200px;
+	}
+
 }

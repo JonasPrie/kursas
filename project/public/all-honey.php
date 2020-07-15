@@ -8,24 +8,24 @@
 				include('../app/views/menu.php');
 			?>
 
-			<div class="col-10 content-wrapper">
-				<div class="shipping-container">
+			<main class="col-10 content-wrapper">
+				<section class="shipping-container">
 					<div class="col-6 shipping-fields-and-text">
 						<span>Shipping local</span>
 					</div>
 					<div class="col-6 shipping-fields-and-text">
 						<span>Shipping EU</span>
 					</div>
-				</div>
-				<div class="first-content-block-row first-content-background">
+				</section>
+				<article class="first-content-block-row first-content-background">
 					<div class="first-content-block-text">
 						<p>Buckfast Bee Queens: Virgin or Mated</p><br>
 						<p id="second-row-text">Carnica Bee Queens: Virgin or Mated</p><br>
 						<p id="third-row-text">Various Honey, Pollen and Bee Bread</p>
 						<p id="try-our-products-text">Try our products now</p>
 					</div>
-				</div>
-				<div class="all-content-blocks">
+				</article>
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<a href="various-types-honey.php">
@@ -39,8 +39,8 @@
 							</a>
 						</h2>
 						<p>Different types of honey.</p>
-						<p id="wrapper-price-tags-text">Price: 19.50&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 19.50&euro;</p>
+						<p class="read-more-text">
 							<a href="various-types-honey.php">
 								More about Various Types of Honey
 							</a>
@@ -63,8 +63,8 @@
 							</a>
 						</h2>
 						<p>Tasty and healthy honey.</p>
-						<p id="wrapper-price-tags-text">Price: 6.50&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 6.50&euro;</p>
+						<p class="read-more-text">
 							<a href="linden-honey.php">
 								More about Linden Honey
 							</a>
@@ -74,8 +74,8 @@
 							<div class="col-6 cart-call-button fas fa-phone"></div>
 						</div>
 					</div>
-				</div>
-				<div class="all-content-blocks">
+				</section>
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<a href="buckwheat-honey.php">
@@ -89,8 +89,8 @@
 							</a>
 						</h2>
 						<p>Dark, healthy, full of iron honey.</p>
-						<p id="wrapper-price-tags-text">Price: 6.50&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 6.50&euro;</p>
+						<p class="read-more-text">
 							<a href="buckwheat-honey.php">
 								More about Buckwheat Honey
 							</a>
@@ -113,8 +113,8 @@
 							</a>
 						</h2>
 						<p>Tasty.</p>
-						<p id="wrapper-price-tags-text">Price: 6.50&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 6.50&euro;</p>
+						<p class="read-more-text">
 							<a href="forrest-raspberry-honey.php">
 								More about Forrest and Raspberry honey
 							</a>
@@ -124,8 +124,8 @@
 							<div class="col-6 cart-call-button fas fa-phone"></div>
 						</div>
 					</div>
-				</div>
-				<div class="all-content-blocks">
+				</section>
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<a href="present-box-honey.php">
@@ -139,8 +139,8 @@
 							</a>
 						</h2>
 						<p>Dark, healthy, full of iron honey.</p>
-						<p id="wrapper-price-tags-text">Price: 25.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 25.00&euro;</p>
+						<p class="read-more-text">
 							<a href="present-box-honey.php.php">
 								More about Honey Box Present
 							</a>
@@ -150,8 +150,8 @@
 							<div class="col-6 cart-call-button fas fa-phone"></div>
 						</div>
 					</div>
-				</div>
-			</div>
+				</section>
+			</main>
 		</div>
 
 		<?php

@@ -3,18 +3,20 @@
 		?>
 
 		<div class="col-12 main-page-container">
+
 			<?php
 				include('../app/views/menu.php');
 			?>
-			<div class="col-10 content-wrapper">
-				<div class="all-content-blocks">
+
+			<main class="col-10 content-wrapper">
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<img src="../app/images/honey-box-present-big.jpg" alt="Present box honey with tea" title="Present box honey with tea">
 							<figcaption>Present box honey with tea</figcaption>
 						</figure>
 					</div>
-					<div class="col-8 bee-queen-product-page-text">
+					<article class="col-8 product-page-product-information">
 						<li><h1>Present Box Honey With Tea</h1></li>
 						<li>Brand: Imanto bitynas</li>
 						<li>Product code: ?</li>
@@ -28,14 +30,14 @@
 								<button id="add-to-cart-button-product-page" class="col-12">Add To Cart</button>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-8 bee-queen-product-description-text">
+					</article>
+				</section>
+				<section class="col-8 bee-queen-product-description-text">
 					<h3>Description</h3>
 					<h4>Present box honey with tea</h4>
 					<p>You can always surprise Your friend or family member with this beautiful box full of honey and tea.</p>
-				</div>
-			</div>
+				</section>
+			</main>
 		</div>
 
 		<?php

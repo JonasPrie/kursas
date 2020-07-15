@@ -8,15 +8,15 @@
 				include('../app/views/menu.php');
 			?>
 
-			<div class="col-10 content-wrapper">
-				<div class="all-content-blocks">
+			<main class="col-10 content-wrapper">
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<img src="../app/images/bee-bread-big.jpg" alt="Bee bread 500g" title="Bee bread 500g">
 							<figcaption>Bee bread 500g</figcaption>
 						</figure>
 					</div>
-					<div class="col-8 bee-queen-product-page-text">
+					<div class="col-8 product-page-product-information">
 						<li><h1>Bee bread 500g</h1></li>
 						<li>Brand: Imanto bitynas</li>
 						<li>Product code: ?</li>
@@ -31,13 +31,13 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-8 bee-queen-product-description-text">
+				</section>
+				<section class="col-8 bee-queen-product-description-text">
 					<h3>Description</h3>
 					<h4>Bee bread 500 grams</h4>
 					<p>Bee bread 0.5kg .</p>
-				</div>
-			</div>
+				</section>
+			</main>
 		</div>
 
 		<?php

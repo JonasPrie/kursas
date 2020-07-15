@@ -8,24 +8,24 @@
 				include('../app/views/menu.php');
 			?>
 
-			<div class="col-10 content-wrapper">
-				<div class="shipping-container">
+			<main class="col-10 content-wrapper">
+				<section class="shipping-container">
 					<div class="col-6 shipping-fields-and-text">
 						<span>Shipping local</span>
 					</div>
 					<div class="col-6 shipping-fields-and-text">
 						<span>Shipping EU</span>
 					</div>
-				</div>
-				<div class="first-content-block-row first-content-background">
+				</section>
+				<article class="first-content-block-row first-content-background">
 					<div class="first-content-block-text">
 						<p>Buckfast Bee Queens: Virgin or Mated</p><br>
 						<p id="second-row-text">Carnica Bee Queens: Virgin or Mated</p><br>
 						<p id="third-row-text">Various Honey, Pollen and Bee Bread</p>
 						<p id="try-our-products-text">Try our products now</p>
 					</div>
-				</div>
-				<div class="all-content-blocks">
+				</article>
+				<section class="all-content-blocks">
 					<div class="col-8 blocks-in-all-content-blocks">
 						<figure>
 							<a href="bee-queen-carnica-virgin.php">
@@ -39,8 +39,8 @@
 							</a>
 						</h2>
 						<p>Quite calm bees, efficient at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 6.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 6.00&euro;</p>
+						<p class="read-more-text">
 							<a href="bee-queen-carnica-virgin.php">
 								More About Carnica Bee Queen
 							</a>
@@ -63,8 +63,8 @@
 							</a>
 						</h2>
 						<p>Quite calm bees, efficient at the start of the season.</p>
-						<p id="wrapper-price-tags-text">Price: 18.00&euro;</p>
-						<p id="read-more-text">
+						<p class="wrapper-price-tags-text">Price: 18.00&euro;</p>
+						<p class="read-more-text">
 							<a href="bee-queen-carnica-mated.php">
 								More About Carnica  Bee Queen
 							</a>
@@ -74,8 +74,8 @@
 							<div class="col-6 cart-call-button fas fa-phone"></div>
 						</div>
 					</div>
-				</div>
-			</div>
+				</section>
+			</main>
 		</div>
 
 		<?php
