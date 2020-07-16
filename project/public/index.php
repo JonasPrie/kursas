@@ -44,8 +44,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 					<div class="col-8 blocks-in-all-content-blocks">
@@ -68,8 +68,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 					<div class="col-8 blocks-in-all-content-blocks">
@@ -92,8 +92,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 				</section>
@@ -118,8 +118,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 					<div class="col-8 blocks-in-all-content-blocks">
@@ -142,8 +142,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 					<div class="col-8 blocks-in-all-content-blocks">
@@ -166,8 +166,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 				</section>
@@ -192,8 +192,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 					<div class="col-8 blocks-in-all-content-blocks">
@@ -216,8 +216,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 				</section>
@@ -245,8 +245,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 					<div class="col-8 blocks-in-all-content-blocks">
@@ -269,8 +269,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 					<div class="col-8 blocks-in-all-content-blocks">
@@ -293,8 +293,8 @@
 							</a>
 						</p>
 						<div class="col-9 cart-call-buttons-in-content-block-wrapper">
-							<div class="col-6 cart-call-button fas fa-shopping-cart"></div>
-							<div class="col-6 cart-call-button fas fa-phone"></div>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-shopping-cart"></button>
+							<button onclick="alertFunction()" class="col-6 cart-call-button fas fa-phone"></button>
 						</div>
 					</div>
 				</section>

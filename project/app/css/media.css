@@ -1,3 +1,4 @@
+/* todo: media for small devices */
 @media only screen and (max-width: 992px) {
 	.left-header-field-name-text {
 		font-size: 15px;
@@ -101,6 +102,10 @@
 	#contact-us-form {
 		width: 100%;
 	}
+
+	.contact-us-container {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 775px) {
@@ -185,3 +190,60 @@
 	}
 
 }
+
+@media only screen and (max-width: 375px) {
+	.hover-dropdown-button {
+		margin: 0;
+		width: 375px;
+		border: 1px solid red;
+	}
+
+	.shopping-cart {
+		width: 100%;
+	}
+
+	.left-header-field-name-text {
+		padding-left: 100px;
+	}
+
+	.blocks-in-all-content-blocks {
+		width: 376px;
+	}
+
+
+	.shopping-cart > span {
+		font-size: 17px;
+	}
+
+	.contact-us-container {
+		transform: scale(0.9);
+	}
+
+	#contact {
+		margin-right: 70px;
+	}
+
+	#contact button[type="submit"] {
+		color: white;
+		padding-bottom: 1px;
+	}
+
+	.footer-text {
+		width: 80%;
+	}
+
+	.first-content-block-text p {
+		font-size: 11px;
+	}
+
+	.first-content-block-text #try-our-products-text {
+		margin-top: -10px;
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 367px) {
+	.hover-dropdown-button {
+		width: 367px;
+
+	}

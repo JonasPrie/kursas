@@ -7,6 +7,7 @@
 		<link href="../app/css/styles.css" rel="stylesheet">
 		<link href="../app/css/menu.css" rel="stylesheet">
 		<link href="../app/css/media.css" rel="stylesheet">
+		<link href="../app/css/flying-bee.css" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<title>Imantas Beekeeping</title>
@@ -24,7 +25,7 @@
 						<i class="fa fa-search" aria-hidden="true"></i>
 						<div class="header-search">
 							<form>
-								<input type="text" placeholder="Search..">
+								<input type="text" id="search-input" onkeyup="search()" placeholder="Search" title="Type in a name">
 							</form>
 						</div>
 					</div>
@@ -34,14 +35,14 @@
 							<a href="tel:+37060001544">+37060001544</a>
 						</span>
 						<i class="far fa-user"></i>
-						<span>Account</span>
+						<span>
+							<a href="account.php">Account</a>
+						</span>
 						<i class="fas fa-shopping-cart"></i>
 						<span>Cart</span>
 					</div>
-					<div class="col-3 right-header-field-date">
-						<?php
-							date_default_timezone_set("Europe/Vilnius");
-							echo date("H:i:s") . " " . date("d/m/Y");
-						?>
+					<div class="col-3 right-header-field-date time">
+						<div id="time"></div>
+						<div id="day"></div>
 					</div>
 			</header>

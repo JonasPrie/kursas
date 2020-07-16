@@ -128,11 +128,6 @@ input::placeholder {
 	margin-right: 30px
 }
 
-.fa-heart {
-	color: red;
-	font-size: 20px;
-}
-
 .fa-user {
 	font-size: 20px;
 	margin-right: 3px;
@@ -309,6 +304,15 @@ footer {
 	background-color: darkolivegreen;
 	max-width: 1280px;
 	margin: auto;
+	font-size: 20px;
+}
+
+.footer-text a {
+	text-decoration: none;
+}
+
+.footer-text a:visited {
+	color: black;
 }
 
 hr {
@@ -354,16 +358,12 @@ h3 {
 
 /*styles for form*/
 
-#contact-us-form {
-	width: 83.33%;
+
+.contact-us-container {
+	width: 800px;
+	text-align: center;
 	display: flex;
 	justify-content: center;
-}
-.contact-us-container {
-	width: 400px;
-	text-align: center;
-	margin-left: 20px;
-	height: auto;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] {
@@ -418,7 +418,7 @@ h3 {
 	cursor: pointer;
 	width: 100%;
 	border: none;
-	background: #0CF;
+	background: green;
 	color: #FFF;
 	margin: 0 0 5px;
 	padding: 10px;
@@ -437,4 +437,31 @@ h3 {
 #contact input:focus, #contact textarea:focus {
 	outline:0;
 	border:1px solid #999;
+}
+
+.about-us h1 {
+	margin: 0;
+	color: green;
+	text-align: center;
+	padding-top: 10px;
+}
+.about-us p {
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+.about-us ul > li {
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+.about-us ul > li > ul  {
+	padding-left: 0;
+}
+
+.about-us figcaption {
+	background-color: #edf1f7;
+	text-align: left;
+	color: green;
+	font-size: 20px;
 }

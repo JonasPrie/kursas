@@ -1,0 +1,66 @@
+.bee {
+  height: 180px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.buzz:hover{
+  -webkit-animation:  buzz 0.2s infinite;
+  animation:  buzz 0.2s infinite;
+}
+.wing {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.wing-left {
+  left: -50px;
+  border-radius: 20px 0 0 0;
+}
+.wing-right {
+  right: -50px;
+  border-radius: 0 20px 0 0;
+}
+.sting {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-style: solid;
+  border-width: 20px 10px 0 10px;
+  border-color: #383308 #B8E3DB #B8E3DB  #B8E3DB;
+}
+
+@keyframes buzz {
+  0%   { left: -0.1em; top: -0.1em; }
+  50% {left: 0.1em; top: 0.1em;}
+  100% { left: -0.1em; top: -0.1em;}
+}
+
+.bee {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcf764+0,fcf764+27,383308+28,383308+35,383308+35,fcf764+36,fcf764+50,383308+52,383308+59,fcf764+61,fcf764+75,fcf764+75,383308+76,383308+83,fcf764+84,fcf764+100 */
+background: #fcf764; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcf764 0%, #fcf764 27%, #383308 28%, #383308 35%, #383308 35%, #fcf764 36%, #fcf764 50%, #383308 52%, #383308 59%, #fcf764 61%, #fcf764 75%, #fcf764 75%, #383308 76%, #383308 83%, #fcf764 84%, #fcf764 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcf764 0%,#fcf764 27%,#383308 28%,#383308 35%,#383308 35%,#fcf764 36%,#fcf764 50%,#383308 52%,#383308 59%,#fcf764 61%,#fcf764 75%,#fcf764 75%,#383308 76%,#383308 83%,#fcf764 84%,#fcf764 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcf764 0%,#fcf764 27%,#383308 27%,#383308 35%,#383308 35%,#fcf764 35%,#fcf764 45%,#383308 45%,#383308 54%,#fcf764 54%,#fcf764 64%,#383308 64%,#383308 73%,#fcf764 73%,#fcf764 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf764', endColorstr='#fcf764',GradientType=0 ); /* IE6-9 */
+}
+
+main > h1 {
+	color: red;
+	margin-left: 200px;
+}

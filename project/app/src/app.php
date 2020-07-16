@@ -7,19 +7,16 @@
 		$message = trim($_POST['message']);
 		$message = htmlspecialchars($message);
 
-			if (!empty($name) && !empty($email) && !empty($message)) {
-				echo '
-				<script>
-				document.getElementById("contact-submit").addEventListener("click", changeEchoLocation);
-				function changeEchoLocation() {
-					var messageSent = "Your message has been sent";
-					document.getElementById("contact-us-form").innerHTML = messageSent;
-				}
-				<script>
-				';
+		if (!empty($name) && !empty($email) && !empty($message)) {
 
-				include('db.php');
+			include('db.php');
+
+			if ($isFormSaved) {
+					echo "<script>
+						alert('Forma sėkmingai pateikta');
+					</script>
+					";
 			}
-
+		}
 	}
 ?>
